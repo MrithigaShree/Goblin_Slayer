@@ -25,6 +25,7 @@ Instead of
 
 To see if it works, run one of the included examples:  
 `py -m pygame.examples.aliens`  
+
 Other Errors, check out this site for possible solutions  
 https://www.pygame.org/wiki/GettingStarted  
 
