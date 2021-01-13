@@ -7,12 +7,28 @@ Pygame is a cross-platfrom library designed to make it easy to write multimedia 
 http://www.pygame.org
 
 ### Installation of Pygame
-You should definitely begin by installing a binary package for your system. The binary packages usually come with or give the information needed for dependencies. Choose an appropriate installer for your system and version of python from the pygame downloads page. http://www.pygame.org/download.shtml
+Pygame requires Python; if you don't already have it, you can download it from https://www.python.org/ .  
+Use python 3.7.7 or greater, because it is much friendlier to newbies, and additionally runs faster.  
 
-Installing from source is fairly automated. The most work will involve compiling and installing all the pygame dependencies. Once that is done run the "setup.py" script which will attempt to auto-configure, build, and install pygame.
+The best way to install pygame is with the pip tool (which is what python uses to install packages). Note, this comes with python in recent versions.  
+We use the --user flag to tell it to install into the home directory, rather than globally.
 
-### Help
-If you are just getting started with pygame, you should be able to get started fairly quickly. Pygame comes with many tutorials and introductions. There is also full reference documentation for the entire library. Browse the documentation from the documenantation index. docs/index.html.
+### Windows
+`python3 -m pip install -U pygame --user`  
+### Mac
+`python3 -m pip install -U pygame --user`
+### Anaconda Mac
+Use  
+`pythonw`  
+Instead of  
+`python`
+
+To see if it works, run one of the included examples:  
+`py -m pygame.examples.aliens`
+Other Errors, check out this site for possible solutions  
+https://www.pygame.org/wiki/GettingStarted
+
+
 
 ### Running The Game
 After successful installation of pygame, run the file Goblin_slayer.py to start the game.
