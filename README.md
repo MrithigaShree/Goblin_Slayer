@@ -15,4 +15,4 @@ Installing from source is fairly automated. The most work will involve compiling
 If you are just getting started with pygame, you should be able to get started fairly quickly. Pygame comes with many tutorials and introductions. There is also full reference documentation for the entire library. Browse the documentation from the documenantation index. docs/index.html.
 
 ### Running The Game
-After successful installation of pygame, run the file main.py to start the game.
+After successful installation of pygame, run the file Goblin_slayer.py to start the game.
