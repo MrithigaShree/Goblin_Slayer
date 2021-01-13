@@ -24,11 +24,9 @@ Instead of
 `python`
 
 To see if it works, run one of the included examples:  
-`py -m pygame.examples.aliens`
+`py -m pygame.examples.aliens`  
 Other Errors, check out this site for possible solutions  
-https://www.pygame.org/wiki/GettingStarted
-
-
+https://www.pygame.org/wiki/GettingStarted  
 
 ### Running The Game
 After successful installation of pygame, run the file Goblin_slayer.py to start the game.
